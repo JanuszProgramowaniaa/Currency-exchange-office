@@ -12,7 +12,7 @@ const counter: React.FC<CounterProps> = ({ initialValue = 0 }) => {
   };
 
   return (
-    <div>
+    <div className="container mt-5">
       <h1>Counter: {count}</h1>
       <button onClick={handleIncrement}>+</button>
     </div>
