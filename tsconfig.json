@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "jsx": "react" // Dodaj tę flagę
+    },
+    "include": [
+      "assets/js/**/*.ts",
+      "assets/js/**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

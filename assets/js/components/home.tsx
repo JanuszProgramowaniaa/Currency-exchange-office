@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 import Welcome from './welcome'; 
 
-const Home = () => {
+const home = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default home;
