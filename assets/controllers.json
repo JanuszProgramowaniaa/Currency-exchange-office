@@ -1,0 +1,7 @@
+{
+    "controllers": {
+      "hello": {
+        "target": "app/controllers/hello_controller.js"
+      }
+    }
+  }

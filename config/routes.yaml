@@ -1,5 +1,5 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+react_routes:
+    path: /{reactRouting}
+    controller: App\Controller\DefaultController::index
+    requirements:
+        reactRouting: '.*'
